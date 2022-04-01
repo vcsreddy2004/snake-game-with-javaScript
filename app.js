@@ -51,7 +51,7 @@ function movement()
             objML = Math.round(Math.random() * 750);
             objMT = Math.round(Math.random() * 350);
             object.style.margin = `${objMT}px ${objML}px`;
-            if(score%5 == 0)
+            if(score%10 == 0)
             {
                 increementationSpeed++;
             }
